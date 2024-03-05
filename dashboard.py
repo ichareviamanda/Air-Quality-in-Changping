@@ -6,7 +6,7 @@ import streamlit as st
 import numpy as nps
 
 # Import file
-changping_df = pd.read_csv('.\data\PRSA_Data_Changping_20130301-20170228.csv')
+changping_df = pd.read_csv('PRSA_Data_Changping_20130301-20170228.csv')
 
 # Adding a sidebar to select a year and month to view data
 with st.sidebar:
